@@ -1,0 +1,11 @@
+spring:
+  datasource:  # 使用内存数据库h2
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=Mysql;TRACE_LEVEL_SYSTEM_OUT=2;
+    password: sa
+    username: sa
+  h2:
+    console:
+      enabled: true
+liquibase:
+  dir: src/main/resources/liquibase
+  drop: true

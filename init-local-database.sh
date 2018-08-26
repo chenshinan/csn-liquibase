@@ -4,5 +4,5 @@ java -Dspring.datasource.url="jdbc:mysql://localhost:3306/liquibase?useUnicode=t
  -Dspring.datasource.username=root \
  -Dspring.datasource.password=root \
  -Dliquibase.drop=true \
- -Dliquibase.dir=src/main/resources/test \
+ -Dliquibase.dir=src/main/resources/liquibase \
  -jar target/csn-liquibase-tool.jar
